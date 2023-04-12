@@ -2,79 +2,74 @@
 
 <a href="https://paiaki.com/"><img src="https://paiaki.com/images/logopaiaki.svg" alt="Build Status"></a>
 
-> A Laravel-Vue SPA starter kit.
-
-<p align="center">
-<img src="https://i.imgur.com/NHFTsGt.png">
-</p>
 
 ## Features
 
-"require": {
-		"php": "^7.3",
-		"ext-curl": "*",
-		"ext-json": "*",
-		"aws/aws-sdk-php": "~3.0",
-		"bileto/omnipay-payu": "dev-master",
-		"chriskonnertz/open-graph": "~2",
-		"cocur/slugify": "^4.0",
-		"creativeorange/gravatar": "~1.0",
-		"cviebrock/eloquent-sluggable": "^8.0",
-		"doctrine/dbal": "^2.10",
-		"facebook/graph-sdk": "~5.0",
-		"fakerphp/faker": "^1.11.0",
-		"fideloper/proxy": "^4.2",
-		"florianv/laravel-swap": "^2.0",
-		"fruitcake/laravel-cors": "^2.0",
-		"graham-campbell/flysystem": "^7.1",
-		"guzzlehttp/guzzle": "^7.0.1",
+"require": { <br>
+		"php": "^7.3",<br>
+		"ext-curl": "*",<br>
+		"ext-json": "*",<br>
+		"aws/aws-sdk-php": "~3.0",<br>
+		"bileto/omnipay-payu": "dev-master",<br>
+		"chriskonnertz/open-graph": "~2",<br>
+		"cocur/slugify": "^4.0",<br>
+		"creativeorange/gravatar": "~1.0",<br>
+		"cviebrock/eloquent-sluggable": "^8.0",<br>
+		"doctrine/dbal": "^2.10",<br>
+		"facebook/graph-sdk": "~5.0",<br>
+		"fakerphp/faker": "^1.11.0",<br>
+		"fideloper/proxy": "^4.2",<br>
+		"florianv/laravel-swap": "^2.0",<br>
+		"fruitcake/laravel-cors": "^2.0",<br>
+		"graham-campbell/flysystem": "^7.1",<br>
+		"guzzlehttp/guzzle": "^7.0.1",<br><br>
 		"ignited/laravel-omnipay": "^3.3",
-		"intervention/image": "^2.5",
-		"iyzico/iyzipay-php": "^2.0",
-		"jackiedo/dotenv-editor": "1.*",
-		"jaybizzle/crawler-detect": "1.*",
-		"jaybizzle/laravel-crawler-detect": "1.*",
-		"lab404/laravel-impersonate": "^1.7",
-		"laracasts/flash": "^3.2",
-		"laravel-notification-channels/twilio": "^3.1",
-		"laravel/framework": "^8.0",
-		"laravel/helpers": "^1.3",
-		"laravel/nexmo-notification-channel": "^2.4",
-		"laravel/sanctum": "^2.9",
-		"laravel/slack-notification-channel": "^2.2",
-		"laravel/socialite": "^5.0",
-		"laravel/tinker": "^2.0",
-		"laravelcollective/html": "^6.2",
-		"league/csv": "^9.6",
-		"league/flysystem-aws-s3-v3": "^1.0",
-		"league/flysystem-cached-adapter": "^1.0",
-		"league/flysystem-sftp": "^1.0",
-		"league/omnipay": "^3.2",
-		"livecontrol/eloquent-datatable": "dev-master",
-		"mews/purifier": "3.3.*",
-		"mhetreramesh/flysystem-backblaze": "^1.5",
-		"omnipay/paypal": "^3.0",
-		"omnipay/stripe": "~3.1@dev",
-		"php-http/guzzle6-adapter": "^2.0",
-		"php-http/message": "^1.7",
-		"predis/predis": "^1.1",
-		"prologue/alerts": "^0.4.8",
-		"propaganistas/laravel-phone": "4.*",
-		"pulkitjalan/geoip": "5.*",
-		"spatie/flysystem-dropbox": "^1.2",
-		"spatie/laravel-backup": "^6.11",
-		"spatie/laravel-cookie-consent": "^2.12",
-		"spatie/laravel-feed": "^2.7",
-		"spatie/laravel-permission": "^3.17",
-		"spatie/laravel-translatable": "^4.6",
-		"srmklive/paypal": "^3.0",
-		"therobfonz/laravel-mandrill-driver": "^3.0",
-		"torann/laravel-meta-tags": "^3.0",
-		"unicodeveloper/laravel-paystack": "1.0.*",
-		"vemcogroup/laravel-sparkpost-driver": "^4.0",
-		"watson/sitemap": "4.0.*"
-	},
-
+		"intervention/image": "^2.5",<br>
+		"iyzico/iyzipay-php": "^2.0",<br>
+		"jackiedo/dotenv-editor": "1.*",<br>
+		"jaybizzle/crawler-detect": "1.*",<br>
+		"jaybizzle/laravel-crawler-detect": "1.*",<br>
+		"lab404/laravel-impersonate": "^1.7",<br>
+		"laracasts/flash": "^3.2",<br>
+		"laravel-notification-channels/twilio": "^3.1",<br>
+		"laravel/framework": "^8.0",<br>
+		"laravel/helpers": "^1.3",<br>
+		"laravel/nexmo-notification-channel": "^2.4",<br>
+		"laravel/sanctum": "^2.9",<br>
+		"laravel/slack-notification-channel": "^2.2",<br>
+		"laravel/socialite": "^5.0",<br>
+		"laravel/tinker": "^2.0",<br>
+		"laravelcollective/html": "^6.2",<br>
+		"league/csv": "^9.6",<br>
+		"league/flysystem-aws-s3-v3": "^1.0",<br>
+		"league/flysystem-cached-adapter": "^1.0",<br>
+		"league/flysystem-sftp": "^1.0",<br>
+		"league/omnipay": "^3.2",<br>
+		"livecontrol/eloquent-datatable": "dev-master",<br>
+		"mews/purifier": "3.3.*",<br>
+		"mhetreramesh/flysystem-backblaze": "^1.5",<br>
+		"omnipay/paypal": "^3.0",<br>
+		"omnipay/stripe": "~3.1@dev",<br>
+		"php-http/guzzle6-adapter": "^2.0",<br>
+		"php-http/message": "^1.7",<br>
+		"predis/predis": "^1.1",<br>
+		"prologue/alerts": "^0.4.8",<br>
+		"propaganistas/laravel-phone": "4.*",<br>
+		"pulkitjalan/geoip": "5.*",<br>
+		"spatie/flysystem-dropbox": "^1.2",<br>
+		"spatie/laravel-backup": "^6.11",<br>
+		"spatie/laravel-cookie-consent": "^2.12",<br>
+		"spatie/laravel-feed": "^2.7",<br>
+		"spatie/laravel-permission": "^3.17",<br>
+		"spatie/laravel-translatable": "^4.6",<br>
+		"srmklive/paypal": "^3.0",<br>
+		"therobfonz/laravel-mandrill-driver": "^3.0",<br>
+		"torann/laravel-meta-tags": "^3.0",<br>
+		"unicodeveloper/laravel-paystack": "1.0.*",<br>
+		"vemcogroup/laravel-sparkpost-driver": "^4.0",<br>
+		"watson/sitemap": "4.0.*"<br>
+	},<br>
+	
 # EloquentDataTable [![Build status](https://travis-ci.org/LiveControl/EloquentDataTable.svg?branch=master)](https://travis-ci.org/LiveControl/EloquentDataTable)
 Eloquent compatible DataTable plugin for server side ajax call handling.
 
